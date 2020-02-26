@@ -25,4 +25,39 @@
         android:textAllCaps="false"
         android:id="@+id/button3" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="With media notification test"
+        android:textAllCaps="false"
+        android:id="@+id/button4" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="With Vibrate notification test"
+    android:textAllCaps="false"
+    android:id="@+id/button5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="With LED notification test"
+        android:textAllCaps="false"
+        android:id="@+id/button6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="With Long text notification test"
+        android:textAllCaps="false"
+        android:id="@+id/button7" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="With Big picture notification test"
+        android:textAllCaps="false"
+        android:id="@+id/button8" />
+
 </LinearLayout>
