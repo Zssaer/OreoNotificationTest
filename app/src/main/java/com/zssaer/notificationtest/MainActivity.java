@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
                     .setContentText("This is hight importance Notification")
                     .setWhen(System.currentTimeMillis())
                     .setSmallIcon(R.mipmap.ic_launcher)
+                    .setAutoCancel(true)
                     .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
                     //绑定PendingIntent
                     .setContentIntent(pendingIntent)
@@ -151,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
                     .setContentText("This is default Notification")
                     .setWhen(System.currentTimeMillis())
                     .setSmallIcon(R.mipmap.ic_launcher)
+                    .setAutoCancel(true)
                     .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
                     //绑定PendingIntent
                     .setContentIntent(pendingIntent)
@@ -186,6 +188,7 @@ public class MainActivity extends AppCompatActivity {
                     .setContentText("This is low importance Notification")
                     .setWhen(System.currentTimeMillis())
                     .setSmallIcon(R.mipmap.ic_launcher)
+                    .setAutoCancel(true)
                     .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
                     //绑定PendingIntent
                     .setContentIntent(pendingIntent)
